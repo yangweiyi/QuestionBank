@@ -5,10 +5,11 @@
 #  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
 #  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
 #
+
 Pod::Spec.new do |s|
 s.name         = "SwitchStyle"
-s.version = "0.0.1"
-s.summary      = "Do problem details library for company packaging"
+s.version = "0.0.2"
+s.summary      = "A nice three-party library for modal custom jumps supports ios9+ in Swift"
 s.homepage     = "https://github.com/yangweiyi/QuestionBank"
 s.license      = "MIT"
 s.author       = { "yangweiyi" => "3142107409@qq.com" }
@@ -18,4 +19,5 @@ s.source       = { :git => "https://github.com/yangweiyi/QuestionBank.git", :tag
 s.framework    = "UIKit","Foundation"
 s.source_files  = "QuestionBank/SwitchStyle", "SwitchStyle/*.{swift}"
 s.requires_arc = true
+
 end
