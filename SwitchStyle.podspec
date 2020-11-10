@@ -6,7 +6,7 @@
 #  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
 #
 Pod::Spec.new do |s|
-s.name         = "QuestionBank"
+s.name         = "SwitchStyle"
 s.version = "0.0.1"
 s.summary      = "Do problem details library for company packaging"
 s.homepage     = "https://github.com/yangweiyi/QuestionBank"
